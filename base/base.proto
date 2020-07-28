@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package base;
+
+option go_package = "github.com/haski/proto-repo/generated/base";
+
+message BaseMessage {
+	int32 message_id = 1;
+}

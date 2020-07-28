@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package product;
+
+import "base/base.proto";
+
+option go_package = "github.com/haski/proto-repo/generated/product";
+
+message Product {
+	base.BaseMessage base_msg = 1;
+	string product_name = 2;
+}
